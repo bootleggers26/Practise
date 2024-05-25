@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Gotham;
+  src: url(../fonts/Gotham-Bold.otf);
+} /*Подключим шрифты*/
+@font-face {
+  font-family: Proxima;
+  src: url(../fonts/proximanova-regular.otf);
+}
+* {
+  box-sizing: border-box;
+}
+
+/*убираем белые поля по краям и даем место заливке из контейнера */
+body {
+  margin: 0;
+}
+.container {
+  width: 900px; /*Зададим ширину информационного контейнера*/
+  margin: 0 auto;
+}
+.team {
+  background-color: #f3f3f3; /*Зададим цвет фона для всего контейнера*/
+}
+
+.team_inner {
+  /* Выравниваем все содержимое по центру */
+  text-align: center;
+}
+.team_title {
+  /*Заголовок*/
+  font-family: Gotham;
+  font-size: 30px;
+  color: rgb(48, 48, 48);
+  text-transform: uppercase;
+  line-height: 30px;
+  margin: 0;
+  padding-top: 50px; /*сделаем отступ сверху(внутри контейнера)*/
+}
+.team_line {
+  /* Создадим линию */
+  width: 184px; /*ее длинна*/
+  height: 3px; /*ее ширина*/
+  background-color: #303030;
+  margin: 0 auto; /*чтобы стояла по центру*/
+}
+.team_text {
+  /*Параграф*/
+  font-family: Proxima;
+  font-size: 16px;
+  color: rgb(90, 90, 90);
+  line-height: 25px;
+  text-align: center;
+  margin: 0 auto; /* отменяет верхний и нижний отступ и автоматически центрирует элемент по горизонтали внутри родительского контейнера. */
+  padding-top: 30px;
+  width: 540px; /*ширину текста сделаем уже*/
+}
+.cards {
+  /*корректируем карточки*/
+  display: flex;
+  justify-content: space-between; /*карточки станут по краям экарана */
+  padding-bottom: 80px; /*карточки сделают отсуп и тем самым "нарастять" снизу контейнер*/
+  padding-top: 55px; /*карточки сделают отступ сверху, чтобы не прилипить к параграфу */
+}
+.item {
+  /*корректируем элементы внутри большого блока*/
+  text-align: center; /*зацентруем*/
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+  padding: 20px 35px;
+  min-width: 210px;
+}
+.item_img {
+  /*Корректируем изображения*/
+  margin-bottom: 10px; /*сделаем оступ от картинки вниз*/
+}
+.item_title {
+  /*заголовок(Имя)*/
+  font-family: Gotham;
+  font-size: 16px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 16px; /*межстрочный интервал немного расширяет расстояние между заголовком и нижним текстом*/
+  margin: 0 0 10px 0; /*добавили 10 снизу*/
+}
+.item_text {
+  /*параграф(профессия)*/
+  font-family: Georgia;
+  font-size: 12px;
+  color: rgb(48, 48, 48);
+  font-style: italic;
+  line-height: 12px;
+  margin: 0 0 10px 0; /*добавили 10 снизу*/
+}
+.icons {
+}
+
+.fa {
+  font-size: 20px;
+  color: #7f7f7f;
+  margin: 0 10px;
+}
+
+.fa-twitter {
+}
+.fa-linkedin {
+}
+.fa-dribbble {
+}
+.fa-skype {
+}

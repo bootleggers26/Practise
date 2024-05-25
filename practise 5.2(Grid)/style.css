@@ -1,0 +1,11 @@
+.grid-container {
+  display: grid;
+}
+.grid-intem {
+}
+.grid-container {
+  border: 2px solid red;
+}
+div > div:nth-child(odd) {
+  background: #666;
+}

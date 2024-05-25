@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Практика 1</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <!-- мы создаем шапку через class, чтобы затем было удобно обращаться и стилизовать-->
+      <div class="conteiner">
+        <!--Создаем информационную часть, контенер, а все что будет вне его-просто задний фон и обращаемся также через class -->
+        <div class="menu_inner">
+          <!--Чтобы указывать стили не для всего CONTEINER, потому что он может быть использован на сайте и в других местах    -->
+          <div class="logo">
+            <!--прикрепили картинку, но нам ее тоже нужно будет стилизовать, обращаясь через свой class logo-->
+            <img src="/img/logo.png" alt="logo" />
+          </div>
+          <ul class="nav">
+            <li><a href="#">home</a></li>
+            <!--мы помместили список в ссылки, так как меню всегда это ссылки на следующие страницы-->
+            <li><a href="#">service</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">pricing</a></li>
+            <li><a href="#">how it work</a></li>
+            <li><a href="#">happy clients</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

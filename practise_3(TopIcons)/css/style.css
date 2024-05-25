@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1170px; /*ширина для контейнера*/
+  margin: 0 auto; /*выравнивание контейнера по центру*/
+}
+.box {
+  height: 300px;
+  background: rgb(45, 22, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(45, 22, 0, 1) 0%,
+    rgba(111, 54, 0, 1) 100%
+  );
+}
+.box_inner {
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.item {
+  text-align: center;
+}
+.number {
+  color: #fff;
+  font-size: 70px;
+}
+.text {
+  color: beige;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.fa {
+  font-size: 70px;
+  color: #fff;
+}

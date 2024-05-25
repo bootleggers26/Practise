@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.team {
+  background-color: #ece9e9;
+}
+
+.team_inner {
+  text-align: center;
+}
+
+.team_title {
+  font-family: Tahoma;
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 10px;
+  margin: 0;
+  padding-top: 100px; /*сделаем отступ сверху(внутри контейнера)*/
+  font-weight: normal;
+}
+
+.team_line {
+  width: 80px;
+  height: 1.5px;
+  background-color: #ff8b38;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.team_text {
+  /*Параграф*/
+  font-family: Tahoma;
+  font-size: 14px;
+  color: #86878b;
+  line-height: 25px;
+  text-align: center;
+  margin: 0 auto; /* отменяет верхний и нижний отступ и автоматически центрирует элемент по горизонтали внутри родительского контейнера. */
+  padding-top: 30px;
+  width: 540px; /*ширину текста сделаем уже*/
+}
+
+.cards {
+  /*корректируем карточки*/
+  display: flex;
+  justify-content: space-between; /*карточки станут по краям экарана */
+  padding-bottom: 80px; /*карточки сделают отсуп и тем самым "нарастять" снизу контейнер*/
+  padding-top: 55px; /*карточки сделают отступ сверху, чтобы не прилипить к параграфу */
+}
+
+.item {
+  /*корректируем элементы внутри большого блока*/
+  text-align: center; /*зацентруем*/
+  padding: 20px 35px;
+  min-width: 210px;
+}
+
+.item_title {
+  /*заголовок(Имя)*/
+  font-family: "Tahoma";
+  font-size: 16px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  line-height: 16px; /*межстрочный интервал немного расширяет расстояние между заголовком и нижним текстом*/
+  margin: 0 0 20px 0; /*добавили 10 снизу*/
+}
+
+.item_text {
+  /*параграф(профессия)*/
+  font-family: "Tahoma";
+  font-size: 14px;
+  color: rgb(48, 48, 48);
+  line-height: 20px;
+  margin: 0 0 10px 0; /*добавили 10 снизу*/
+}
+
+.fa {
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  color: #ff8b38;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  border: 2px solid #ff8b38;
+  padding: 20px;
+}

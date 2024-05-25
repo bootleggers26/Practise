@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #1f0b0b;
+}
+.conteiner {
+  width: 1170px; /*оптимальная ширина для сайта*/
+  margin: 0 auto; /*ноль сверху и снизу, а по бокам авто. Такой margin позволяет автоматически смещать контейнер в ЦЕНТР, а справа и слева появляется ОДИНАКОВЫЙ ОТСТУП*/
+}
+.info-inner {
+  display: flex;
+  margin: 20px 20px;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.item {
+  text-align: center;
+  flex: 1;
+}
+
+.text {
+  text-transform: uppercase;
+  color: floralwhite;
+  margin-top: 20px;
+}
+.number {
+  color: #6a1616;
+  font-weight: bold;
+  font-size: 50px;
+
+  margin-bottom: 20px;
+}

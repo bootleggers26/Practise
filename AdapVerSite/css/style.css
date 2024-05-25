@@ -1,0 +1,69 @@
+:root {
+  --gutter: 20px;
+  --bg: black;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+body,
+h1,
+h2,
+p,
+h3,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: rgb(15, 199, 43);
+}
+.container {
+  background-color: #fe0606;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > div {
+  padding: 15px;
+  margin: 0 auto;
+  background-color: #261cdd;
+  border: 1px solid black;
+}
+.col-3 {
+  width: calc(25% - var(--gutter));
+}
+.col-6 {
+  width: calc(50% - var(--gutter));
+}
+.col-12 {
+  width: calc(100% - var(--gutter));
+}
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+  .col-lg-3 {
+    width: calc(25% - var(--gutter));
+  }
+  .col-lg-6 {
+    width: calc(50% - var(--gutter));
+  }
+  .col-lg-12 {
+    width: calc(100% - var(--gutter));
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+}

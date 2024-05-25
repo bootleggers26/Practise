@@ -1,0 +1,215 @@
+/* Стили для шапки (header) */
+.header {
+  background-image: url(../img/1red/background/Layer\ 13.png);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.header_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.header_nav {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 1.222;
+  text-decoration: none;
+}
+
+.header_nav:hover {
+  text-decoration: none;
+}
+
+.header_nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header_nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.header_nav li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "Montserrat";
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.header_nav li a:hover {
+  background-color: #130e27;
+}
+
+.header_title {
+  text-transform: uppercase;
+  font-size: 90px;
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: bold;
+  line-height: 0.889;
+  text-align: left;
+}
+
+.black_title {
+  color: #130e27;
+}
+
+.header_text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* Стили для раздела с услугами (service) */
+.service {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.service_title {
+  font-size: 24px;
+  color: #333;
+  font-size: 50px;
+  font-family: "Couture";
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.red_title {
+  color: rgb(198, 35, 20);
+}
+
+.service_item {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.service_img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Стили для раздела "Наша история" (story) */
+.story_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.story {
+  background-color: #130e27;
+  padding: 40px 0;
+}
+
+.story_text {
+  flex: 1;
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  text-align: left;
+}
+
+.story_btn {
+  background-color: #c62314;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 60px;
+  text-align: center;
+  width: 280px;
+  height: 60px;
+  padding: 0;
+  border-radius: 5px;
+  transition: border 0.3s;
+}
+
+.story_btn:hover {
+  text-decoration: none;
+}
+
+/* Стили для раздела с ценами (pricing) */
+.pricing {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.pricing_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #333;
+}
+
+.pricing_card {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing_card_item {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.pricing_card_title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+.pricing_card_subtitle {
+  font-size: 18px;
+  color: #333;
+}
+
+.pricing_card_text {
+  font-size: 14px;
+  color: #777;
+}
+
+.pricing_card_btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Стили для подвала (footer) */
+.footer {
+  background-color: #130e27;
+  color: #fff;
+  padding: 70px 0;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.footer_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_text {
+  font-size: 20px;
+  font-family: "PT Serif";
+}

@@ -1,0 +1,8 @@
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+/* scroll-behavior: smooth; означает плавное перемещение */
+/* @media (prefers-reduced-motion: no-preference) должно указываться в медиа запросе */

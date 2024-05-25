@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+/* Стили для шапки (header) */
+.header {
+  background-image: url(../img/1red/background/Layer\ 13.png);
+  background-repeat: no-repeat;
+  background-size: 100% 700px; /* Ширина 100% и высота 700px */
+  color: #fff;
+  padding: 20px 0;
+}
+.header_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.header_nav {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 1.222;
+  text-decoration: none;
+}
+.header_nav:hover {
+  text-decoration: none;
+}
+.header_nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header_nav li {
+  display: inline;
+  margin-right: 20px;
+}
+.header_nav li a {
+  display: inline-block;
+  padding: 10px 20px; /* Регулируйте отступы ваших кнопок */
+  text-transform: uppercase;
+  font-size: 16px; /* Размер текста */
+  font-family: "Montserrat";
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px; /* Закругление углов */
+  transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+}
+.header_nav li a:hover {
+  background-color: #130e27; /* Изменение цвета фона при наведении */
+}
+.header_title {
+  text-transform: uppercase;
+  font-size: 90px;
+  font-family: "Montserrat";
+  color: #fff;
+  font-weight: bold;
+  line-height: 0.889;
+  text-align: left;
+}
+.black_title {
+  color: #130e27;
+}
+
+.header_text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  text-align: left;
+}
+
+/* Стили для раздела с услугами (service) */
+.service {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.service_card {
+  display: flex;
+  justify-content: space-between;
+}
+.service_title {
+  font-size: 50px;
+  color: #333;
+  font-family: "Couture";
+  font-weight: bold;
+  line-height: 1.6;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.red_title {
+  color: rgb(198, 35, 20);
+}
+.service ul {
+  list-style: none; /* Убираем маркеры (точки) у элементов ul */
+  padding: 0;
+  margin: 0;
+}
+.service_item {
+}
+
+.service_img {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+  height: 150px;
+  padding-bottom: 70px;
+}
+.service_text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 1.4;
+  text-align: center;
+  padding-bottom: 20px;
+  height: 45px;
+  width: 180px;
+  margin-bottom: 70px;
+}
+
+/* Стили для раздела "Наша история" (story) */
+.story_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.story {
+  background-color: #130e27;
+  padding: 40px 0;
+}
+
+.story_text {
+  flex: 1;
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 1.4;
+  text-align: left;
+}
+
+.story_btn {
+  background-color: #615452;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  line-height: 60px; /* Высота кнопки 60px */
+  text-align: center;
+  width: 280px; /* Ширина кнопки 280px */
+  height: 60px; /* Высота кнопки 60px */
+  padding: 0; /* Уберем внутренние отступы, чтобы кнопка была ровно 280x60 */
+  border-radius: 5px; /* Закругление углов на 5% */
+  transition: border 0.3s; /* Добавим плавный переход для линии при наведении */
+}
+.story_btn:hover {
+  text-decoration: none;
+  background-color: #c62314;
+}
+/* Стили для раздела с ценами (pricing) */
+.pricing {
+  background-color: #efefef;
+  padding: 1px 0;
+}
+
+.pricing_title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Montserrat";
+  color: #130e27;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.pricing_card {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing_card_item {
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pricing_card_title {
+  font-size: 60px;
+  font-family: "Montserrat";
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  line-height: 1.333;
+  padding-bottom: 30px;
+}
+
+.pricing_card_subtitle {
+  font-size: 22px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 1.273;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pricing_card_text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(22, 22, 22);
+  line-height: 1.4;
+  text-align: center;
+  list-style: none;
+  padding-bottom: 30px;
+}
+
+.pricing_card_btn {
+  height: 50px;
+  width: 200px;
+  display: inline-block;
+  background-color: #130e27;
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: "Montserrat";
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px; /* Закругление углов на 5% */
+  transition: border 0.3s; /* Добавим плавный переход для линии при наведении */
+}
+
+a.pricing_card_btn:hover {
+  text-decoration: none;
+  background-color: #c62314;
+}
+
+/* Стили для подвала (footer) */
+.footer {
+  background-color: #130e27;
+  color: #fff;
+  padding: 70px 0;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.footer_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_text {
+  font-size: 20px;
+  font-family: "PT Serif";
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+  text-align: left;
+}
+
+.footer_text a {
+  color: #fb0000;
+}
+
+/* Стили для ссылок */
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

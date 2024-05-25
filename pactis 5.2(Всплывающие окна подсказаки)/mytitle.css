@@ -1,0 +1,19 @@
+/* При наедении будет другой курсор */
+[mytitle] {
+  cursor: pointer;
+}
+/* transition меняет время вываливания */
+[mytitle]:after {
+  content: "";
+  transition: 0.2s;
+}
+/* При наведении наш псевдоэлемент будет иметь следующие свойства */
+/* Если убрать display то подсказка будет справа */
+[mytitle]:hover:after {
+  width: 550px;
+  display: block;
+  content: attr(mytitle);
+  background-color: red;
+  padding: 10px;
+  z-index: 100;
+}
